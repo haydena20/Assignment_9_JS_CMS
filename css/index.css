@@ -1,0 +1,34 @@
+body
+{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-rows: auto 1000% auto;
+    gap: 10%;
+    background-color: lightblue;
+}
+div
+{
+    width: 100%;
+}
+#top
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#center > textarea
+{
+    height: 100%;
+    width: 99.5%;
+    text-align: left;
+}
+input
+{
+    display: block;
+}
+#bot
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
